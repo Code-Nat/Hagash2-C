@@ -1,7 +1,7 @@
 #pragma once
 
 #include <stdio.h>
-#define N5 4
+#define N5 5
 
 int printLoc(int* trigger, int x, int y)
 {
