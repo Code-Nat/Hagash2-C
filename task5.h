@@ -54,5 +54,6 @@ int mineSweeper(int matrix[N5][N5])
 		if (3 == matrix[0][N5 - 2] + matrix[1][N5 - 2] + matrix[1][N5 -	1])
 			printLoc( &trigger,N5-1, 0);
 	
-	return trigger;
+	if (!trigger)
+		printf("There are no perfect flags");
 }

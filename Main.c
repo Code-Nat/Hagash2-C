@@ -6,6 +6,7 @@
 #include "task5.h"
 #include "task6.h"
 
+
 int main()
 {
 	
@@ -23,7 +24,7 @@ int main()
 	MatrixTester(matrix2);
 	/**/
 	printf("\n");
-
+	/*
 	//task 3
 	int num;
 	float maxPay;
@@ -41,11 +42,13 @@ int main()
 
 	printf("\n");
 	//task 5
-	int matrix5[5][5] = {{0,1,0,1,0},
-						{1,1,1,1,1},
-						{0,1,0,1,0},
-						{1,1,1,1,1},
-						{0,1,0,1,0} };
+	int matrix5[N5][N5] = {
+		{0,1,0,1,0},
+		{1,1,1,1,1},
+		{0,1,0,1,0},
+		{1,1,1,1,1},
+		{0,1,0,1,0} 
+		};
 	printf("\n%d\n", mineSweeper(matrix5));
 	/**/
 
