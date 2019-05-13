@@ -16,11 +16,13 @@ int main()
 	printf("%d\n", delete_chars(str, 3, 4));
 	printf("\n%d and the text is: '%s'", delete_text(str1, str2), str1);
 	/**/
+	printf("\n");
 
 	//task 2
 	int matrix2[10][10];
 	MatrixTester(matrix2);
 	/**/
+	printf("\n");
 
 	//task 3
 	int num;
@@ -30,12 +32,14 @@ int main()
 	printf("\nThe sale was used by %d clinets.\n", num);
 	//return 0;
 	/**/
+	printf("\n");
 
 	//task 4
 	int matrix4[5][5];
 	EvenBitMatrix(matrix4);
 	/**/
 
+	printf("\n");
 	//task 5
 	int matrix5[5][5] = {{0,1,0,1,0},
 						{1,1,1,1,1},
@@ -45,6 +49,7 @@ int main()
 	printf("\n%d\n", mineSweeper(matrix5));
 	/**/
 
+	printf("\n");
 	//task 6
 	int workSec[7][3] = {	{1,8,17}, 
 							{2,9,17}, 
